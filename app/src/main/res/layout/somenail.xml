@@ -29,18 +29,7 @@
             android:layout_centerInParent="true"
             android:backgroundTint="#FFFFFF"
             android:foregroundTint="#FFFFFF"
-            app:srcCompat="@android:drawable/ic_menu_edit" />
+            app:srcCompat="@drawable/notification" />
 
-        <Button
-            android:id="@+id/gotoSchool"
-            android:layout_width="117dp"
-            android:layout_height="63dp"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_centerInParent="false"
-            android:layout_centerVertical="false"
-            android:backgroundTint="#FFC107"
-            android:text="등교하기"
-            android:textSize="24sp" />
     </RelativeLayout>
 </RelativeLayout>
