@@ -10,12 +10,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SomenailThread"
-            tools:ignore="Instantiatable"></activity>
-        <activity android:name=".SomenailActivity" />
+        <activity android:name=".Card_item"></activity>
+        <activity android:name=".CardAdapter"></activity>
+        <activity
+            android:name=".IntroThread"
+            tools:ignore="Instantiatable" />
+        <activity android:name=".IntroActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
