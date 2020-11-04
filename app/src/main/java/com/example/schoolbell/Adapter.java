@@ -40,7 +40,7 @@ public class Adapter extends RecyclerView.Adapter<Adapter.ViewHolder> implements
         TextView textView1;
 
         public ViewHolder (View view, final OnCardItemClickListener listener) {
-            super (itemView);
+            super (view);
 
             textView1=itemView.findViewById(R.id.title);
 
