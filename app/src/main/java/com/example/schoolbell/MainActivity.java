@@ -8,14 +8,20 @@ import android.content.ClipData;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
+
+    ImageView alarm;
+    ImageView asignment;
+    ImageView timetable;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         RecyclerView recyclerView=findViewById(R.id.recyclerview);
+
 
         LinearLayoutManager layoutManager=new LinearLayoutManager(this,LinearLayoutManager.VERTICAL,false);
         recyclerView.setLayoutManager(layoutManager);
@@ -24,6 +30,8 @@ public class MainActivity extends AppCompatActivity {
 
         adapter.addItem(new Card("온라인클래스"));
         adapter.addItem(new Card("구글클래스룸"));
+        adapter.addItem(new Card("101클래스"));
+        adapter.addItem(new Card("클래스카드"));
 
         recyclerView.setAdapter(adapter);
 
