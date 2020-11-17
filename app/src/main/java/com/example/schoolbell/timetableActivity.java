@@ -6,8 +6,11 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class timetableActivity extends AppCompatActivity {
+
+    //final TextView output = (TextView) findViewById(R.id.text_output);
 
 
     @Override
@@ -24,10 +27,5 @@ public class timetableActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
     }
-
-
-
 }
