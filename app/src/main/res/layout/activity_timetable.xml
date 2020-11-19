@@ -30,10 +30,10 @@
         android:layout_marginTop="10dp"
         android:layout_gravity="center_horizontal">
 
-        <TableRow>
+        <TableRow android:layout_width="40sp">
 
             <TextView
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#3079d1"
                 android:gravity="center"
@@ -44,7 +44,7 @@
                 android:textColor="#FFFFFF"></TextView>
 
             <TextView
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#3079d1"
                 android:gravity="center"
@@ -55,8 +55,8 @@
                 android:textColor="#FFFFFF"></TextView>
 
             <TextView
-                android:layout_width="80dp"
-                android:layout_height="40sp"
+                android:layout_width="40sp"
+                android:layout_height="match_parent"
                 android:background="#3079d1"
                 android:gravity="center"
                 android:shadowColor="#FFFFFF"
@@ -66,7 +66,7 @@
                 android:textColor="#FFFFFF"></TextView>
 
             <TextView
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#3079d1"
                 android:gravity="center"
@@ -77,7 +77,7 @@
                 android:textColor="#FFFFFF"></TextView>
 
             <TextView
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#3079d1"
                 android:gravity="center"
@@ -89,250 +89,250 @@
 
         </TableRow>
 
-        <TableRow>
+        <TableRow android:layout_width="40sp">
 
             <TextView
                 android:id="@+id/table_0_0"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#FFFFFF"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_0_1"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_0_2"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#FFFFFF"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_0_3"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_0_4"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#FFFFFF"
                 android:gravity="center"></TextView>
         </TableRow>
 
-        <TableRow>
+        <TableRow android:layout_width="40sp">
 
             <TextView
                 android:id="@+id/table_1_0"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_1_1"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#FFFFFF"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_1_2"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_1_3"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#FFFFFF"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_1_4"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:gravity="center"></TextView>
         </TableRow>
 
-        <TableRow>
+        <TableRow android:layout_width="40sp">
 
             <TextView
                 android:id="@+id/table_2_0"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#FFFFFF"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_2_1"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_2_2"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#FFFFFF"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_2_3"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_2_4"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#FFFFFF"
                 android:gravity="center"></TextView>
         </TableRow>
 
-        <TableRow>
+        <TableRow android:layout_width="40sp">
 
             <TextView
                 android:id="@+id/table_3_0"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_3_1"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#FFFFFF"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_3_2"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_3_3"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#FFFFFF"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_3_4"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:gravity="center"></TextView>
         </TableRow>
 
-        <TableRow>
+        <TableRow android:layout_width="40sp">
 
             <TextView
                 android:id="@+id/table_4_0"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#FFFFFF"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_4_1"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_4_2"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#FFFFFF"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_4_3"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_4_4"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#FFFFFF"
                 android:gravity="center"></TextView>
         </TableRow>
 
-        <TableRow>
+        <TableRow android:layout_width="40sp">
 
             <TextView
                 android:id="@+id/table_5_0"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_5_1"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#FFFFFF"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_5_2"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_5_3"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#FFFFFF"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_5_4"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:gravity="center"></TextView>
         </TableRow>
 
-        <TableRow>
+        <TableRow android:layout_width="40sp">
 
             <TextView
                 android:id="@+id/table_6_0"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#FFFFFF"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_6_1"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_6_2"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#FFFFFF"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_6_3"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:gravity="center"></TextView>
 
             <TextView
                 android:id="@+id/table_6_4"
-                android:layout_width="80dp"
+                android:layout_width="40sp"
                 android:layout_height="40sp"
                 android:background="#FFFFFF"
                 android:gravity="center"></TextView>
@@ -343,15 +343,15 @@
         android:id="@+id/modifyBtn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50sp"
-        android:layout_marginStart="10dp"
         android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50sp"
         android:background="#3079d1"
         android:bufferType="normal"
         android:text="수정"
+        android:textColor="#ffffff"
         android:textSize="17sp"
-        android:textStyle="bold"
-        android:textColor="#ffffff" />
+        android:textStyle="bold" />
 
 
 </LinearLayout>

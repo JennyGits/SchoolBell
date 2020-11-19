@@ -9,14 +9,17 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 import java.util.ArrayList;
 
 public class ModifyTimetableActivity extends AppCompatActivity {
 
     Button modifyBtn;
-    EditText editText;
+    EditText text;
 
-    ArrayList<String> list = new ArrayList<>();
+    ArrayList<String> list;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,11 +28,42 @@ public class ModifyTimetableActivity extends AppCompatActivity {
 
         modifyBtn=findViewById(R.id.modifyBtn);
 
+        list = getIntent().getStringArrayListExtra("textList");
+
+        int p=0;
+
+        for(int i=0;i<7;i++)
+        {
+            for(int j=0;j<5;j++)
+            {
+                int id = getResources().getIdentifier("table2_"+i+"_"+j, "id", "com.example.schoolbell");
+                text = findViewById(id);
+                text.setText(list.get(p));
+                p++;
+            }
+        }
+
+
+
         modifyBtn.setOnClickListener(new Button.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(ModifyTimetableActivity.this,timetableActivity.class);
+                list.clear();
+                for(int i=0;i<7;i++)
+                {
+                    for (int j=0;j<5;j++)
+                    {
+                        int id = getResources().getIdentifier("table2_"+i+"_"+j, "id", "com.example.schoolbell");
+                        text = findViewById(id);
+                        list.add(text.getText().toString());
+                    }
+                }
+
+                Intent intent = new Intent(getApplicationContext(),timetableActivity.class);
+                intent.putExtra("textList", list);
                 startActivity(intent);
+
+
             }
         });
     }
