@@ -17,8 +17,8 @@
 
         <activity android:name=".Assignment"></activity>
         <activity android:name=".AlramActivity" />
-        <activity android:name=".timetableActivity" />
-        <activity android:name=".ModifyTimetableActivity" />
+        <activity android:name=".timetableActivity"/>
+        <activity android:name=".ModifyTimetableActivity"/>
         <activity android:name=".test_callender" />
         <activity android:name=".MainActivity"> </activity>
         <activity android:name=".IntroActivity">
